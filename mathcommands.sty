@@ -3,9 +3,14 @@
 
 \newcommand{\supp}{\text{supp}}
 
+% Commands for calculus
+\def\pd#1#2{\frac{\partial #1}{\partial #2}}
+\def\spd#1#2{\frac{\partial^2 #1}{\partial #2^2}}
+
 % Commands for linear algebra (matrices and vectors)
 \newcommand{\la}{\left\langle}
 \newcommand{\ra}{\right\rangle}
+\def\myvec#1{{\bf#1}}
 
 % Commands for standard sets in mathematics.
 \newcommand{\R}{\mathbb{R}}
@@ -29,7 +34,7 @@
 \def\cis#1{\text{cis}\left(#1\right)}
 
 % standard commands for algebra
-\def\tr(#1){\text{tr}\left(#1\right)}
+\def\tr#1{\text{tr}\left(#1\right)}
 \def\det(#1){\text{det}\left(#1\right)}
 \def\im#1{\text{Im}\left(#1\right)}
 \def\aut#1{\text{Aut}\left(#1\right)}
