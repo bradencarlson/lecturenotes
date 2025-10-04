@@ -1,2 +1,7 @@
 
 *.log
+*.aux
+*.out
+*.pdf
+*.toc
+*.vim
