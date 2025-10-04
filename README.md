@@ -41,4 +41,5 @@ in the preamble of a TeX file to use the class.
 
 ## Help
 
-Unfortunately, there is currently no documentation to see. I am working on it!
+If you need help, or have any questions about a particular command, please visit
+our [project's website](https://bradencarlson.github.io/lecturenotes).
