@@ -140,5 +140,20 @@
 		\vspace{5pt}\par
 }
 
+% Provides the remark environment.
+\newenvironment{remark}{
+        \refstepcounter{theorem}
+        \refstepcounter{theoremHref}
+        \makeatletter
+            \ifnum\value{subsection}>0
+            \def\@currentlabel{\thesubsection.\thetheorem}%
+            \else
+            \def\@currentlabel{\thesection.\thetheorem}%
+            \fi
+        \makeatother
+        \vspace{5pt}\par\noindent\textbf{Remark \@currentlabel}\hspace{5pt}
+}{
+		\vspace{5pt}\par
+}
 
 
