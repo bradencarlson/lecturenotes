@@ -7,6 +7,9 @@ notes, since my handwritten notes neven contain all the information conveyed
 during a class period. This class provides the means to manage both copies of
 the lecture notes in a single place. 
 
+See my [Math 1123 Notes](https://github.com/bradencarlson/math-1123) for an
+example. 
+
 ## Installation
 
 <details>
